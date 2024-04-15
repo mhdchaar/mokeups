@@ -1,0 +1,42 @@
+
+
+
+.icons{
+    margin-left: 55rem;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.order-filter>div{
+    margin: 2.5%;
+}
+
+li{
+    border: none;
+}
+
+/*Background color*/
+.card-color {
+    background-color: rgb(30, 53, 53);
+}
+.bg-green{
+    background-color: green;
+}
+.bg-lightg{
+    background-color: lightgreen;
+}
+
+/*text color*/
+.t-w{
+    color: white;
+}
+.t-r{
+    color: red;
+}
+.t-o{
+    color: orange;
+}

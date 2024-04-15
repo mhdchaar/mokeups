@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mokups</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./bootstrap/css/boostrap.min.css" rel="stylesheet" />
+    <script
+      src="./bootstrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/addons.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light card-color">
+      <div class="container d-flex justify-content-between">
+        <div>
+          <a class="navbar-brand text-white" href="ITinvoice.html"
+            >Account Receivable</a
+          >
+        </div>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="CompanyProfiles.html"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-buildings"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z"
+                    />
+                    <path
+                      d="M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z"
+                    />
+                  </svg>
+                  Sky Software
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="CompanyProfiles.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+                    />
+                  </svg>
+                  User Name</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="CompanyProfiles.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-power"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M7.5 1v7h1V1h-1z" />
+                    <path
+                      d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="CompanyProfiles.html">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-power"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M7.5 1v7h1V1h-1z" />
+                    <path
+                      d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-secondary">
+      <div class="container d-flex justify-content-between">
+        <div class="profile ml-1 text-white">
+          <p class="mb-0">
+            Home /
+            <a
+              class="text-decoration-none text-white"
+              href="CompanyProfiles.html"
+              >COMPANY PROFILES /</a
+            >
+          </p>
+          <h1>INN TOURS & TRAVEL</h1>
+        </div>
+        <div class="order-filter mt-24">
+          <div class="d-flex flex-row">
+            <div class="bg-white wd-144">
+              <span>order by | </span>
+              <span> Filter | </span>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-three-dots-vertical"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div>
+              <form class="ml-16">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container is used for everything under the header  to add space-->
+    <div class="container d-flex flex-row text-center border-bottom">
+      <a
+        class="nav-item nav-link active text-decoration-none text-dark"
+        href="InnTours.html"
+        >Profile
+      </a>
+      <a
+        class="nav-item nav-link text-decoration-none text-dark"
+        href="ITinvoice.html"
+        >Invoice
+      </a>
+      <a class="nav-item nav-link disabled" href="#">payments</a>
+      <a class="nav-item nav-link disabled" href="#">Activity Log</a>
+      <a class="nav-item nav-link disabled" href="#">Document</a>
+      <hr />
+    </div>
+
+    <div class="container d-flex flex-row justify-content-between mt-24">
+      <!--left-75 is for the 75% left side of the body & m-05 for margin 0.5 rem-->
+      <div class="wd-70 row">
+        <div class="col-lg w-75">
+          <div class="form-group">
+            <label for="formGroupExampleInput">A/R Number*</label>
+            <input
+              type="text"
+              class="form-control w-35"
+              id="A/R-Number"
+              placeholder="The account number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Name">Name*</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Name"
+              placeholder="The company name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Name-Altrenate">Name Altrenate</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Name-Altrenate"
+              placeholder="The company name alternate"
+            />
+          </div>
+          <div class="form-group w-50">
+            <label for="Category">Category*</label>
+            <select class="form-control">
+              <option>Category</option>
+              <option>Category 2</option>
+              <option>Category 3</option>
+            </select>
+          </div>
+          <div class="form-group w-35">
+            <label for="VAT-Number">VAT Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="VAT-Number"
+              placeholder="The company VAT number"
+            />
+          </div>
+          <div class="form-group w-25">
+            <label for="Payment-terms">Payment terms(days)*</label>
+            <input
+              type="number"
+              class="form-control"
+              id="Payment-terms"
+              placeholder="0"
+            />
+          </div>
+        </div>
+
+        <div class="col-1 w-25">
+          <div class="form-group">
+            <label for="Credit-Limit">Credit Limit(USD)</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Credit-Limit"
+              placeholder="0.00"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Current-Balance">Current Balance(USD)</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Current-Balance"
+              placeholder="0.00"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Current-Group-Balance"
+              >Current Group Balance(USD)</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="Current-Group-Balance"
+              placeholder="0.00"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Days-to-Pay">Days to Pay</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Days-to-Pay"
+              placeholder="0"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Category-Days-to-Pay">Category Days to Pay</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Category-Days-to-Pay"
+              placeholder="0"
+            />
+          </div>
+        </div>
+
+        <div class="row forms mt-16">
+          <div class="form-check col">
+            <input type="checkbox" class="form-check-input" id="Active" />
+            <label class="form-check-label" for="Active">Active</label>
+          </div>
+          <div class="form-check col">
+            <input type="checkbox" class="form-check-input" id="Is-Local" />
+            <label class="form-check-label" for="Is-Local">Is Local</label>
+          </div>
+          <div class="form-check col">
+            <input type="checkbox" class="form-check-input" id="Cash-basic" />
+            <label class="form-check-label" for="Cash-basic">Cash Basis</label>
+          </div>
+          <div class="form-check col">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="Hide-From-List"
+            />
+            <label class="form-check-label" for="Hide-From-List"
+              >Hide From List</label
+            >
+          </div>
+          <div class="form-check col">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="Hide-From-Aging"
+            />
+            <label class="form-check-label" for="Hide-From-Aging"
+              >Hide from Aging</label
+            >
+          </div>
+        </div>
+      </div>
+      <!--right-25 is 25% to theright side of the body-->
+      <div class="w-25">
+        <div class="col-sm m-05">
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header card-color t-w">
+                <div class="row">
+                  <div class="col-6">
+                    <h6>Follow-Up</h6>
+                  </div>
+                  <div class="col-6">
+                    <h6>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-plus-square-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-three-dots-vertical"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                        />
+                      </svg>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">
+                  INN TOURS & TRAVEL - Collect 50% of Anwar event invoice
+                </h6>
+                <h6 class="card-subtitle text-muted">
+                  Due by: 01/02/2021 10:00 EST
+                </h6>
+                <a href="#" class="card-link">Close</a> |<a
+                  href="#"
+                  class="card-link"
+                  >Dismiss</a
+                >
+                <hr />
+                <h6 class="text-warning ml-70">EXPLORE <span>&#8594;</span></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header card-color t-w">
+                <div class="row">
+                  <div class="col-6">
+                    <h6>Recent Actions</h6>
+                  </div>
+                  <div class="col-6">
+                    <h6>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-plus-square-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-three-dots-vertical"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                        />
+                      </svg>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">
+                  SEND NEW INVOICE - Invoice #25147/ Inn Tours & Travel
+                </h6>
+                <h6 class="card-subtitle text-muted">
+                  Due by: 01/02/2021 10:00 EST
+                </h6>
+                <hr />
+                <h6 class="text-warning ml-70">EXPLORE <span>&#8594;</span></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-header card-color t-w">
+                <div class="row">
+                  <div class="col-6">
+                    <h6>Rwlated Reports</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="#">Statments of Account</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="address-card ml-10">
+      <a href="#">+ Add Contact</a>
+      <div class="col-4 col-sm d-flex flex-row mt-16">
+        <div class="card w-50">
+          <div class="card-header">
+            <h6>Raad Al Ali</h6>
+            <p>Development Manager</p>
+          </div>
+          <div class="card-body">
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope-fill text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                />
+              </svg>
+              example@email.com
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-telephone-fill text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              079000000
+            </p>
+          </div>
+        </div>
+        <div class="card w-50 ml-16">
+          <div class="card-header">
+            <h6>Hussam anwar</h6>
+            <p>Development Manager</p>
+          </div>
+          <div class="card-body">
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope-fill text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                />
+              </svg>
+              example@email.com
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-telephone-fill text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              079000000
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="COntact-card ml-10 mt-16">
+      <a href="#">+ Add address></a>
+      <div class="col-4 col-sm d-flex flex-row mt-16">
+        <div class="card w-50">
+          <div class="card-header">
+            <h6>Mailing & Physical</h6>
+          </div>
+          <div class="card-body">
+            <p class="text-secondary">Joran, Amman, 111112, PO Box 123456</p>
+            <p></p>
+            <p class="text-secondary">Tarawni ST., Building 7</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
